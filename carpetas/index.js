@@ -41,8 +41,6 @@ if (deportes === "si") {
   alert("INCORRECTO!");
 }
 
-
-
-if (acertijo + historia + deportes === true){
-  alert ("Enhorabuena, acertaste a todas las preguntas. Tienes un optimo!")
-}else("has fallado, desapruebas este examen")
+if (acertijo & historia & deportes === isNaN("si")) {
+  alert("has fallado, desapruebas este examen");
+} else alert("Enhorabuena, acertaste a todas las preguntas. Tienes un optimo!");
