@@ -41,9 +41,7 @@ if (deportes === "si") {
   alert("INCORRECTO!");
 }
 
-/* No entendi como hacer para enviar un alert con un
- mensaje determinado si 3 condicionales dan como resultado true.
-  Ver ejemplo a continuacion (no me sale): */
+
 if (acertijo === "si") {
   alert("Enhorabuena, acertaste 1 pregunta. Tienes un 2!");
 } else if (acertijo && historia === "si" && "si") {
