@@ -41,6 +41,15 @@ if (deportes === "si") {
   alert("INCORRECTO!");
 }
 
-if (acertijo & historia & deportes === isNaN("si")) {
-  alert("has fallado, desapruebas este examen");
-} else alert("Enhorabuena, acertaste a todas las preguntas. Tienes un optimo!");
+/* No entendi como hacer para enviar un alert con un
+ mensaje determinado si 3 condicionales dan como resultado true.
+  Ver ejemplo a continuacion (no me sale): */
+if (acertijo === "si") {
+  alert("Enhorabuena, acertaste 1 pregunta. Tienes un 2!");
+} else if (acertijo && historia === "si" && "si") {
+  alert("Enhorabuena, acertaste 2 preguntas. Tienes un 4!");
+} else if (acertijo && historia && deportes === "si" && "si" && "si") {
+  alert("Enhorabuena, acertaste a todas las preguntas. Tienes un optimo!");
+} else {
+  alert("Has fallado todas las preguntas. Desapruebas este examen");
+}
