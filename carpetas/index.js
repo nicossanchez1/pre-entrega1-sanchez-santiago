@@ -41,7 +41,6 @@ if (deportes === "si") {
   alert("INCORRECTO!");
 }
 
-
 if (acertijo === "si") {
   alert("Enhorabuena, acertaste 1 pregunta. Tienes un 2!");
 } else if (acertijo && historia === "si" && "si") {
