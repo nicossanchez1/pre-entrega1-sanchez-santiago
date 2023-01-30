@@ -85,9 +85,9 @@
 //   alert(mensaje);
 // }
 
-//------------------
-//UTILIZACIÓN WHILE
-// -----------------
+//---------------------------
+//UTILIZACIÓN WHILE & SWITCH
+// --------------------------
 // let nombre = prompt("ingrese usuario");
 // while (nombre != "ESC") {
 //   switch (nombre) {
